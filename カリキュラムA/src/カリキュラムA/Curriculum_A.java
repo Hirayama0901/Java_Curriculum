@@ -29,9 +29,8 @@ public class Curriculum_A {
 			floatValue = 0.0f;
 			doubleValue = 0.0d;
 			charValue = '\u0000';
-			stringValue = "";
+			stringValue = "null";
 			booleanValue = false;
-			
 			
 			/**************************
 			 * 問題3.初期化をしたそれぞれの変数に下記の値を代入してください
@@ -150,6 +149,7 @@ public class Curriculum_A {
 			/**************************
 			 * [概要]Boolean型を宣言し、判定する処理
 			 **************************/
+			age = 24;
 			boolean ageValue = age >= 25;
 			System.out.println(ageValue + "\n");
 			
@@ -159,7 +159,6 @@ public class Curriculum_A {
 			/**************************
 			 * [概要]【年齢・身長・体重】を文字列型に型変換する処理
 			 **************************/
-			age = 24;
 			height = 168.5D;
 			weight = 64.2D;
 			String consoleAge = "年齢は" + String.valueOf(age) + "歳です";
@@ -188,5 +187,6 @@ public class Curriculum_A {
 			boolean status = ageInteger >= 25 || heightInteger >= 160;
 			System.out.println(status);
 		 }
-
 }
+
+
