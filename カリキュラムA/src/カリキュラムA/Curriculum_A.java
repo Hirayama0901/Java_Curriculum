@@ -29,7 +29,7 @@ public class Curriculum_A {
 			floatValue = 0.0f;
 			doubleValue = 0.0d;
 			charValue = '\u0000';
-			stringValue = "null";
+			stringValue = null;
 			booleanValue = false;
 			
 			/**************************
