@@ -24,8 +24,8 @@ public class Qes6 {
 		 * 	・残り台数は0〜11までのランダムな値が出力されるようにしてください
 		 */	
 		
-		System.out.println("「パソコン、冷蔵庫、扇風機、洗濯機、加湿器、テレビ、ディスプレイ、その他商品」を複数、(カンマ)区切りで入力してください");
-		System.out.println("入力例：冷蔵庫、パソコン、ディスプレイ、その他商品");
+		System.out.println("「パソコン、冷蔵庫、扇風機、洗濯機、加湿器、テレビ、ディスプレイ」を複数、(カンマ)区切りで入力してください");
+		System.out.println("入力例：冷蔵庫、パソコン、ディスプレイ");
 		
 		String input = scanner.nextLine();
 		String electricalAppliances[] = input.split("、");
@@ -40,8 +40,8 @@ public class Qes6 {
 				case "テレビ","ディスプレイ":
 					System.out.println(electricalAppliance.equals("テレビ") ? electricalAppliance + "残り台数は" + tvCount + "台です" + '\n' :electricalAppliance + "残り台数は" + (11 - tvCount) + "台です" + '\n' );
 					break;
-				case "その他商品":
-					System.out.println("『 その他商品 』は指定の商品ではありません");
+				default:
+					System.out.println("『 " + electricalAppliance + " 』は指定の商品ではありません");
 					break;
 			}
 		}
