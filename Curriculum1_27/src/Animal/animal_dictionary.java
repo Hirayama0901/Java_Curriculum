@@ -34,7 +34,6 @@ public class animal_dictionary {
     }
 	
 	public void printInfo() {
-		
 		System.out.println("");
         System.out.println("動物名：" + name);
         System.out.println("体長：" + length + "m");
