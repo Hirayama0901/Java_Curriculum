@@ -15,7 +15,6 @@ class Person {
 		this.weight = weight;
 		//問題2：Personコンストラクタの中でクラスフィールドcountに1を足してください
 		count++;
-		
 	}
 
 	public double bmi() {
